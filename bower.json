@@ -1,0 +1,20 @@
+{
+  "name": "ChatApp",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "latest",
+    "typeahead.js": "latest",
+    "font-awesome": "latest"
+  },
+  "directory": "components",
+  "homepage": "",
+  "authors": [
+    ""
+  ],
+  "main": "server.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "free"
+}
