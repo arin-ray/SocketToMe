@@ -1,5 +1,6 @@
 
 var last10messages = []; //to be populated later
+// initially hide the main screen
 
 /*
 Functions
