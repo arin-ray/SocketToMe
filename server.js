@@ -141,6 +141,7 @@ function purge(s, action) {
 						people[room.people[i]].inroom = null;
 					}
 				}
+                
 				delete rooms[people[s.id].owns];
 				people[s.id].owns = null;
 				room.people = _.without(room.people, s.id); //remove people from the room:people{}collection

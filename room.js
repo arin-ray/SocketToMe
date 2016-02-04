@@ -5,7 +5,6 @@ function Room(name, id, owner) {
   this.people = [];
   this.peopleLimit = 10;
   this.status = "available";
-  this.private = false;
   this.totalMessages = 0;
   this.messagesUnread = { };
   this.currentPeople = [];
@@ -42,10 +41,6 @@ Room.prototype.getPerson = function(personID) {
 
 Room.prototype.isAvailable = function() {
   return this.available === "available";
-};
-
-Room.prototype.isPrivate = function() {
-  return this.private;
 };
 
 module.exports = Room;
